@@ -1,0 +1,275 @@
+  <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keyword" content="">
+        <meta name="description" content="">
+        <meta name="autor" content="">
+        <meta name="tag" content="">
+    <title>reservation</title>
+        
+    </head>
+    <body>
+        <header>
+      <nav>
+        <hr size="3" color="#A47070">
+        <table  cellpadding="20px" width="100%"  bgcolor="#A47070 ">
+          <tr >
+            <td width="40%">
+              <img
+                color="#F2F0F0"
+                src="./image/icons8-sign-language-c-50.png"
+                alt="an icon"
+                width="70px"
+                height="50px">
+            <font size="40px" color="#F2F0F0">babaooo</font>
+          </td>
+            <td>
+              
+              <a href="./index.html"><font color="#F2F0F0">HOME </a></td></font>
+              <td width="15%" align="center"><a href="reservation.html"><font color="#F2F0F0">ROOM RESERVATION AND PIZZA DELIVERY </font></a></td>
+              <td><a href="feedback.html"><font color="#F2F0F0">FEEDBACK</font> </a></td>
+              <td><a href="reservation.html#pizza"><font color="#F2F0F0">PIZZA DELIVERY</font> </a></td>
+              <td><a href="job.html"><font color="#F2F0F0">JOB APPLICATION</font> </a></td>
+            <td>
+              <form action="">
+              <input id="search" type="text" />
+              <label for="search"> <button>Search</button> </label> 
+              </form>
+              <br>
+              <a href="#"><img width="20px" src="./image/icons8-facebook-50.png" alt="Facebook" title="vist our FB page"></a>&nbsp&nbsp
+              <a href="#"><img width="20px" src="./image/icons8-phone-50.png" alt="phone" title="call us here"></a>&nbsp&nbsp
+              <a href="#"><img width="20px" src="./image/insta.png" alt="Instagram" title="visit our instagram page"></a>&nbsp&nbsp
+              <a href="#"><img width="20px" src="./image/icons8-shopping-cart-64.png" alt="shopping cart" title="shop"></a>
+              
+           
+            </td>
+          </tr>
+        </table>
+        <hr size="3" color="#A47070">
+      </nav>
+    </header>
+    
+  
+  
+      <table width="40%" align="center">
+        <tr><td   align="right"><a href="#pizza">Go to pizza delivery</a></td></tr>
+        <tr><td><h1 align="center">Reservation Request</h1></td></tr>
+        <tr>
+          
+          <td>
+             <form action="">
+            <fieldset>
+              <legend><font color="#5e9ff2">General information</font></legend>
+             
+                <font >Arrival date</font
+                >&nbsp;&nbsp;&nbsp;</label
+              >
+              <input
+                type="date"
+                name="date"
+                id="date"
+                value="1999-07-13"
+                min="2021-12-23"
+                max="2022-01-30"
+              />
+              <br />
+              <br />
+              <label for="night">Night</label>
+              <input type="number" id="night"><br> <br>
+                <label for="adult">Adult</label>
+              <input type="number" id="adult"> <br> <br>
+                <label for="child">Child</label>
+              <input type="number" id="child">
+            
+              <label for="date">
+            </fieldset> 
+<fieldset>
+<legend><font color="#5e9ff2">preference</font></legend>
+
+Room type :
+  <input type="radio" name="roomType" id="standard">
+  <label for="standard" >standard</label>
+   <input type="radio" name="roomType" id="standard">
+  <label for="business" >business</label>
+   <input type="radio" name="roomType" id="business">
+  <label for="suite" >Suite</label>
+     <input type="radio" name="roomType" id="suite"> <br> <br>
+
+    Bed type :
+  <input type="radio" name="bedType" id="king">
+  <label for="king" >King</label>
+   <input type="radio" name="bedType" id="double">
+  <label for="double" >Double</label> <br> <br>
+
+  <input type="checkbox" name="smoke" id="smoke">
+  <label for="smoke" >Smoking</label> <br> <br>
+  
+ 
+
+</fieldset>
+        <fieldset > 
+
+          <legend><font color="#5e9ff2">Contact information</font></legend>
+<label for="name">Name &nbsp;&nbsp;&nbsp; </label> 
+<input type="text" id="name" required> <br> <br>
+<label for="email">Email &nbsp;&nbsp;&nbsp; </label>  
+<input type="email" id="name"> <br> <br>
+<label for="phone "> Phone</label>
+<input type="tel" id="phone" name="phone"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required>
+
+
+
+        </fieldset>   <br> 
+   <input type="submit" value="submit reservation">   
+   <input type="reset" value="clear">
+   </form>
+          </td>
+        </tr>
+      </table>
+
+
+            <h1 align="center" id="pizza">Pizza delivery</h1>
+            <h3 align="center">online order form</h3>
+
+      <table width=60% align="center" cellspacing=40px>
+<tr> <td>
+  <ul>
+    <li><label for="name">Name &nbsp;&nbsp;&nbsp;&nbsp;</label>
+       <input type="text" name="name" id="name"></li> <br> 
+        <li><label for="address">address&nbsp;&nbsp;&nbsp;&nbsp;</label>
+       <input type="text" name="adress" id="address"></li> <br>
+        <li><label for="town">Town city</label>
+       <input type="text" name="name" id="twon"></li> <br>
+        <li><label for="post">post code</label>
+       <input type="text" name="name" id="post"></li> <br>
+        <li><label for="tele">Tele&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+       <input type="tel" name="name" id="tele"></li> <br>
+        <li><label for="email">Email&nbsp;&nbsp;&nbsp;&nbsp;</label> 
+       <input type="email" name="name" id="email"></li> <br>
+       
+
+  </ul>
+</td>
+
+<td>
+    <ul><li>required fields</li></ul>
+    <form action="">
+  <fieldset>
+      
+<legend>Topping</legend>
+ <input type="radio" name="top" id="standard">
+  <label for="standard" >Marghrita</label> <br>
+   <input type="radio" name="top" id="standard">
+  <label for="business" >Four seasons</label> <br>
+   <input type="radio" name="top" id="business">
+    <label for="business" >Meat Feast</label>
+  
+  </fieldset>
+
+  
+  <fieldset>
+    <legend>size</legend>
+ <input type="radio" name="size" id="standard">
+  <label for="standard" >small</label> <br>
+   <input type="radio" name="size" id="standard"> 
+  <label for="business" >Medium</label> <br>
+   <input type="radio" name="size" id="business">
+    <label for="business" >Large</label> <br>
+  </fieldset>
+</form></td>
+<td><form action="">
+  <fieldset>
+<legend>Extras</legend>
+<input type="checkbox" id="angry" /> 
+ <label for="angry">mushrooms &nbsp; &nbsp; &nbsp; &nbsp;</label>
+                <br />
+                <br />
+                  <input type="checkbox" id="sad" />
+                <label for="sad"
+                  >Green peppers</label
+                >
+               <br />
+                <br />
+                   <input type="checkbox" id="Ambivalent" /> 
+                <label for="Happy">Anchovies &nbsp; &nbsp; &nbsp; &nbsp; </label>
+             <br />
+                <br />
+                    <input type="checkbox" id="Ambivalent" /> 
+                <label for="Ambivalent">Extra cheese</label>
+            <br />
+                <br />
+
+  </fieldset>
+
+
+</form></td>
+</tr>
+<tr><td colspan="3" align="center">
+  <label for="Pre"> preferred delivery time: </label>
+  <input type="time" name="time" id="pre"> <br> <br>
+  <label for="ad">Delivery instruction or Address: </label> <br>
+  <textarea name="address" id="ad" cols="30" rows="10"></textarea><br><br>
+  <input type="submit" value="submit order" name="sumbit">
+  
+</td></tr>
+      </table>
+
+      <footer>
+      <hr align="center" width="15%" size="3" color="#171616">
+      <table width="100%" bgcolor="#A47070" align="center">
+        <tr><td colspan="4" width=100%><hr size="2"></td></tr><br>
+        <tr >
+          <td align="center">
+
+            <p> <font size="5"> bababoo<br>room reservation<br>
+            pizza delivery and application center</font></p>
+          </td>
+          <td colspan="" align="center">
+
+            <ul type="none">
+              <li>Tools</li>
+              <li><hr width="9%"></li><br>
+              <li>Apply jobs </li> 
+              <li>Reserve rooms</li> 
+              <li>Order pizza</li> 
+            </ul>
+          </td>
+          <td colspan="" align="center">
+
+            <ul type="none">
+              <li>Info</li>
+              <li><hr width="5%"></li><br>
+              <li><a href="#">About us</a> </li> <br>
+              <li><a href="#">Terms of service</a></li>  <br>
+              <li><a href="#">contact</a></li> <br>
+              <li><a href="#">privacy policy</a></li> 
+            </ul>
+          </td>
+          
+          <td colspan="" align="center">
+
+            <ul type="none">
+              <li>Follow us</li>
+              <li><hr width="15%"></li><br>
+              <li><a href="#">watsapp</a> <img align="center"  width="20px" src="./image/icons8-phone-50.png" alt="phone"></li> <br>
+              <li><a href="#">Facebook &nbsp</a><img  align="center" width="20px" src="./image/icons8-facebook-50.png" alt="Facebook"></li>  <br>
+              <li><a href="#">Instagram</a><img align="center" width="30px" src="./image/insta.png" alt="instagram" /></li> 
+            </ul>
+          </td>
+           
+           
+           
+          
+          
+        </tr>
+
+        <tr>
+          <td colspan="4" align="center"><hr>@copyright 2021</td>
+        </tr>
+      </table>
+    </footer>
+  </body>
+</html>
